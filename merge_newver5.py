@@ -258,7 +258,13 @@ for g in group_var_dict.keys() :
 
 ##single vec check
 
-for sin in single_vec.keys() 
+for sin in single_vec.keys() : 
+	##group check
+	for grp in group_mut.keys() : 
+		if sin in group_mut[grp] : 
+			sin_gr = grp
+			break
+	for sinext in
 
 
 
